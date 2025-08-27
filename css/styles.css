@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+#hero {
+    background-color: #1e3d59;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#hero h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+#hero p {
+    margin-bottom: 16px;
+}
+
+.boton {
+    display: inline-block;
+    background: #2a5174;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 4px 0 #18344d;
+}
+
+.boton:hover {
+    top: -2px;
+    box-shadow: 0 6px 0 #18344d;
+}
+
+.boton:active {
+    top: 0;
+    box-shadow: 0 2px 0 #18344d;
+}
+
+header {
+    background-color: #2a5174;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+}
+
+.caja {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 18px;
+}
+
+.caja h2 {
+    color: #1e3d59;
+    margin-bottom: 10px;
+}
+
+#redessociales a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #222;
+    text-decoration: none;
+}
+
+#redessociales img {
+    width: 20px;
+    height: 20px;
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+footer {
+    background-color: #1e3d59;
+    color: #fff;
+    text-align: center;
+    padding: 14px 10px;
+    margin-top: 10px;
+}
