@@ -38,16 +38,6 @@ body {
     box-shadow: 0 4px 0 #18344d;
 }
 
-.boton:hover {
-    top: -2px;
-    box-shadow: 0 6px 0 #18344d;
-}
-
-.boton:active {
-    top: 0;
-    box-shadow: 0 2px 0 #18344d;
-}
-
 header {
     background-color: #2a5174;
     position: sticky;
@@ -60,10 +50,10 @@ header {
 }
 
 .logo img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
+  height: 60px;
+  width: auto;
 }
+
 
 nav ul {
     list-style: none;
@@ -114,4 +104,5 @@ footer {
     text-align: center;
     padding: 14px 10px;
     margin-top: 10px;
+
 }
