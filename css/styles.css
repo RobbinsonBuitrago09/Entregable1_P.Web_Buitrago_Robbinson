@@ -39,14 +39,13 @@ body {
 }
 
 header {
-    background-color: #2a5174;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    background-color: #2a5174; 
+    position: sticky; 
+    top: 0;           
+    display: flex;    
+    justify-content: space-between; 
+    align-items: center; /
+    padding: 10px 20px; 
 }
 
 .logo img {
@@ -106,3 +105,4 @@ footer {
     margin-top: 10px;
 
 }
+
